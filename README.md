@@ -1,8 +1,8 @@
 # Project 2 - ETL Pipline
 ## Group 2
 
-This project will extract and transform crowdfunding data from the excel workbooks and create a final PostgreSQL crowdfunding database.
-Data was sourced from two excel files; [crowdfunding.xlsx](Resources/crowdfunding.xlsx) and contacts.xlsx(Resources/contacts.xlsx) located in this repository's 'Resources' folder.  
+This project will extract and transform crowdfunding data from excel workbooks for the creation of a PostgreSQL crowdfunding database.
+Data was sourced from two excel files; [crowdfunding.xlsx](Resources/crowdfunding.xlsx) and contacts.xlsx(Resources/contacts.xlsx), located in this repository's 'Resources' folder.  
 The script for data extraction and transformation is located in the [ETL_Mini_Project](ETL_Mini_Project_AAfolabi_MKhan_EMaksimova_SLaBelle.ipynb) jupyter notebook file. 
 
 Four CSV files were exported for database construction (???new folder???):
