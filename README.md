@@ -15,10 +15,11 @@ Four CSV files were exported for database construction:
    
 #### Category and Subcategory DataFrames
 The category.csv file was contructed from the "category & sub-category" column in the crowdfunding.xlsx file.  Categories were extracted and given a unique ID designated as "category_ID".  
+
 The subcategory.csv file was contructed from the "category & sub-category" column in the crowdfunding.xlsx file.  Subcategories were extracted and given a unique ID designated as "subcategory_ID".  
 
 #### Campaign DataFrame
-The campaign.csv file was constructed from the crowdfuncing.xlsx file and utilized the category.csv and subcategory.csv files for populating category and subcategory IDs.  
+The campaign.csv file was constructed from the crowdfunding.xlsx file and utilized the category.csv and subcategory.csv files for populating category and subcategory IDs.  
 
 #### Contacts DataFrame
 The contacts.csv file was extracted and transformed from the contacts.xlsx file.  
