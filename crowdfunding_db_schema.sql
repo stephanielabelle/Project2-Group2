@@ -39,8 +39,8 @@ CREATE TABLE "campaign" (
     "backers_count" int   NOT NULL,
     "country" varchar(255)   NOT NULL,
     "currency" varchar(255)   NOT NULL,
-    "launch_date" datetime   NOT NULL,
-    "end_date" datetime   NOT NULL,
+    "launch_date" varchar(255)   NOT NULL,
+    "end_date" varchar(255)   NOT NULL,
     "category_id" varchar(255)   NOT NULL,
     "subcategory_id" varchar(255)   NOT NULL,
     CONSTRAINT "pk_campaign" PRIMARY KEY (
