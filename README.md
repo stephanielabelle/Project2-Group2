@@ -26,6 +26,6 @@ The contacts.csv file was extracted and transformed from the contacts.xlsx file.
 
 ### Loading to Crowdfunding Database (Stephanie):
 
-An [ERD](Resources/ERD,png) was constructed with the [QuickDBD](https://www.quickdatabasediagrams.com/) app, and the schema was saved as a Postgres file named [crowdfunding_db_schema](crowdfunding_db_schema.sql) with appropriate primary/foreign key and data type assignment.
+An [ERD](Resources/ERD.png) was constructed with the [QuickDBD](https://www.quickdatabasediagrams.com/) app, and the schema was saved as a Postgres file named [crowdfunding_db_schema](crowdfunding_db_schema.sql) with appropriate primary/foreign key and data type assignment.
 The crowdfunding schema along withe the 4 csv files were used to construct a PostgreSQL database named crowdfunding_db.  After database creation, each table can be displayed with a SELECT statement, represented by screenshots in the [crowdfunding_db](crowdfunding_db) folder.
 
